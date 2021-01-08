@@ -119,55 +119,55 @@ class RegisterPage extends Component {
                                     <span className="input-group-text"> <i className="fa fa-user"></i> </span>
                                 </div>
                                 <input className="form-control" type='text' name='firstName' onChange={this.handleChange} />
-                                <p className="text-danger">
-                                    {errors.firstName}
-                                </p>
                             </div>
+                            <p className="text-danger">
+                                {errors.firstName}
+                            </p>
                             <div className="form-group input-group">
                                 <div className="input-group-prepend">
                                     <span className="input-group-text"> <i className="fa fa-user"></i> </span>
                                 </div>
                                 <input className="form-control" type='text' name='lastName' onChange={this.handleChange} />
-                                <p className="text-danger">
-                                    {errors.lastName}
-                                </p>
                             </div>
+                            <p className="text-danger">
+                                {errors.lastName}
+                            </p>
                             <div className="form-group input-group">
                                 <div className="input-group-prepend">
                                     <span className="input-group-text"> <i className="fa fa-envelope"></i> </span>
                                 </div>
                                 <input className="form-control" type='text' name='email' onChange={this.handleChange} noValidate />
-                                <p className="text-danger">
-                                    {errors.email}
-                                </p>
                             </div>
+                            <p className="text-danger">
+                                {errors.email}
+                            </p>
                             <div className="form-group input-group">
                                 <div className="input-group-prepend">
                                     <span className="input-group-text"> <i className="fa fa-phone"></i> </span>
                                 </div>
                                 <input className="form-control" type='text' name='phone' onChange={this.handleChange} noValidate />
-                                <p className="text-danger">
-                                    {errors.phone}
-                                </p>
                             </div>
+                            <p className="text-danger">
+                                {errors.phone}
+                            </p>
                             <div className="form-group input-group">
                                 <div className="input-group-prepend">
                                     <span className="input-group-text"> <i className="fa fa-lock"></i> </span>
                                 </div>
                                 <input className="form-control" type='text' name='password' onChange={this.handleChange} noValidate />
-                                <p className="text-danger">
-                                    {errors.password}
-                                </p>
                             </div>
+                            <p className="text-danger">
+                                {errors.password}
+                            </p>
                             <div className="form-group input-group">
                                 <div className="input-group-prepend">
                                     <span className="input-group-text"> <i className="fa fa-lock"></i> </span>
                                 </div>
                                 <input className="form-control" type='text' name='confirmPassword' onChange={this.handleChange} noValidate />
-                                <p className="text-danger">
-                                    {errors.confirmPassword}
-                                </p>
                             </div>
+                            <p className="text-danger">
+                                {errors.confirmPassword}
+                            </p>
                             <div className='info'>
                                 <small>Password must be eight characters in length.</small>
                             </div>
